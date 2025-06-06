@@ -1,0 +1,19 @@
+.person-list-container {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.person-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.person-list label {
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
