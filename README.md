@@ -4,7 +4,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Get started
 
-required: get the internal ip you are running the backend, like: 192.168.1.*, create a .env file add BACK_IP var, put the ip you got on this var.
+required: get your internal ip of the machine you are running the backend, like: 192.168.1.*, create a .env file add BACK_IP var, put the ip you got on this var.
 
 
 1. Install dependencies
