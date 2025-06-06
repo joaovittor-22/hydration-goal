@@ -13,8 +13,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-   npx expo start
+   npx expo start or npm start
    ```
+tip: npm start will generate a QR code, download de the expo go app on you smartphone, if you don't have it installed yet, then scan the QR code on the expo go.
 
 In the output, you'll find options to open the app in a
 

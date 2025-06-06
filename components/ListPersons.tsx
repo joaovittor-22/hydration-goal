@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, FlatList, Pressable, StyleSheet, Text, View, Alert } from 'react-native';
 import axios from 'axios';
+require('dotenv').config();
 
 type Person = {
   id: number;
@@ -15,6 +16,7 @@ type Props = {
 const ListPersons: React.FC<Props> = ({ refreshTrigger }) => {
   const [people, setPeople] = useState<Person[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
+  const ip = process.env.BACK_IP
 
   useEffect(() => {
     fetchPeople();
@@ -23,7 +25,7 @@ const ListPersons: React.FC<Props> = ({ refreshTrigger }) => {
   const fetchPeople = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('http://192.168.1.16:8000/pessoas/');
+      const response = await axios.get( `http://${ip}:8000/pessoas/`);
       setPeople(response.data);
     } catch (error) {
       console.error('Erro ao buscar pessoas:', error);
