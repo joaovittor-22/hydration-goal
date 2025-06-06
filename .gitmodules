@@ -1,3 +1,9 @@
 [submodule "web-app"]
 	path = web-app
 	url = https://github.com/joaovittor-22/hydration-goal.git
+[submodule "web-app/web-app"]
+	path = web-app/web-app
+	url = https://github.com/joaovittor-22/hydration-goal.git
+[submodule "app-mobile"]
+	path = app-mobile
+	url = https://github.com/joaovittor-22/hydration-goal.git
