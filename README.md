@@ -4,6 +4,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Get started
 
+required: get the internal ip you are running the backend, like: 192.168.1.*, create a .env file add BACK_IP var, put the ip you got on this var.
+
+
 1. Install dependencies
 
    ```bash
@@ -16,6 +19,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start or npm start
    ```
 tip: npm start will generate a QR code, download de the expo go app on you smartphone, if you don't have it installed yet, then scan the QR code on the expo go.
+
 
 In the output, you'll find options to open the app in a
 
