@@ -1,0 +1,3 @@
+[submodule "hydration-goal"]
+	path = hydration-goal
+	url = https://github.com/joaovittor-22/hydration-goal.git
